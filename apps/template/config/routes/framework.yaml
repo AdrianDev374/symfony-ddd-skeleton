@@ -1,3 +1,8 @@
+test_route:
+    path: /test
+    controller: AdrianDev374\Apps\Template\Controllers\TestController
+    methods: [ GET ]
+
 when@dev:
     _errors:
         resource: '@FrameworkBundle/Resources/config/routing/errors.xml'

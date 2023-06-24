@@ -1,0 +1,16 @@
+# TODO imports from src
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    # Controllers
+    AdrianDev374\Apps\Template\Controllers\:
+        resource: '../src/Controllers'
+        tags: [ 'adriandev374.controllers' ]
+
+    # Commands
+    AdrianDev374\Apps\Template\Commands\:
+        resource: '../src/Commands'
+        tags: [ 'adriandev374.console' ]
